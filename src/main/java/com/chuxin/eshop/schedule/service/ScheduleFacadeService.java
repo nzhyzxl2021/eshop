@@ -1,10 +1,10 @@
 package com.chuxin.eshop.schedule.service;
 
-import com.chuxin.eshop.customer.dto.ReturnGoodsWorksheetDTO;
-import com.chuxin.eshop.order.dto.OrderDTO;
-import com.chuxin.eshop.purchase.dto.PurchaseOrderDTO;
-import com.chuxin.eshop.wms.dto.PurchaseInputOrderDTO;
-import com.chuxin.eshop.wms.dto.ReturnGoodsInputOrderDTO;
+import com.chuxin.eshop.customer.domain.ReturnGoodsWorksheetDTO;
+import com.chuxin.eshop.order.domain.OrderDTO;
+import com.chuxin.eshop.purchase.domain.PurchaseOrderDTO;
+import com.chuxin.eshop.wms.domain.PurchaseInputOrderDTO;
+import com.chuxin.eshop.wms.domain.ReturnGoodsInputOrderDTO;
 
 /**
  * @author chuxin
