@@ -1,8 +1,8 @@
 package com.chuxin.eshop.finance.service;
 
-import com.chuxin.eshop.wms.dto.PurchaseInputOrderDTO;
-import com.chuxin.eshop.wms.dto.ReturnGoodsInputOrderDTO;
-import com.chuxin.eshop.wms.dto.SaleDeliveryOrderDTO;
+import com.chuxin.eshop.wms.domain.PurchaseInputOrderDTO;
+import com.chuxin.eshop.wms.domain.ReturnGoodsInputOrderDTO;
+import com.chuxin.eshop.wms.domain.SaleDeliveryOrderDTO;
 
 /**
  * @author chuxin
