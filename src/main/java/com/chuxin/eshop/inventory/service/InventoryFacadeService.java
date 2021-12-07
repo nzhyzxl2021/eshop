@@ -1,8 +1,8 @@
 package com.chuxin.eshop.inventory.service;
 
-import com.chuxin.eshop.order.dto.OrderDTO;
-import com.chuxin.eshop.wms.dto.PurchaseInputOrderDTO;
-import com.chuxin.eshop.wms.dto.ReturnGoodsInputOrderDTO;
+import com.chuxin.eshop.order.domain.OrderDTO;
+import com.chuxin.eshop.wms.domain.PurchaseInputOrderDTO;
+import com.chuxin.eshop.wms.domain.ReturnGoodsInputOrderDTO;
 
 /**
  * @author chuxin

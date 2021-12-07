@@ -1,4 +1,4 @@
-package com.chuxin.eshop.purchase.dto;
+package com.chuxin.eshop.purchase.domain;
 
 import lombok.Data;
 
