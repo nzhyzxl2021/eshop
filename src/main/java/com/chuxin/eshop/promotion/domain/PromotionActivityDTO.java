@@ -1,4 +1,4 @@
-package com.chuxin.eshop.promotion.dto;
+package com.chuxin.eshop.promotion.domain;
 
 import lombok.Data;
 
