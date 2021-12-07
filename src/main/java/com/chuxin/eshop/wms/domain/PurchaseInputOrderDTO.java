@@ -1,4 +1,4 @@
-package com.chuxin.eshop.wms.dto;
+package com.chuxin.eshop.wms.domain;
 
 import lombok.Data;
 

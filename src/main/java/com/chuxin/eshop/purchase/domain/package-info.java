@@ -4,4 +4,4 @@
  * @Date 2021/12/5 10:48 PM
  * @Description: TODO
  */
-package com.chuxin.eshop.purchase.dto;
+package com.chuxin.eshop.purchase.domain;
