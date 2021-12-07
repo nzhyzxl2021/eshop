@@ -1,6 +1,6 @@
 package com.chuxin.eshop.promotion.service;
 
-import com.chuxin.eshop.promotion.dto.PromotionActivityDTO;
+import com.chuxin.eshop.promotion.domain.PromotionActivityDTO;
 
 import java.util.List;
 
