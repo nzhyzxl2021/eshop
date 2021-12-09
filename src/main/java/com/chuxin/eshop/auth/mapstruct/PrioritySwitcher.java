@@ -14,7 +14,7 @@ import java.util.List;
  * @Date 2021/12/9 12:12 AM
  * @Description: 权限模块-层对象转换类
  */
-@Mapper
+@Mapper(componentModel = "spring")
 public interface PrioritySwitcher {
 
     PrioritySwitcher INSTANCE = Mappers.getMapper(PrioritySwitcher.class);

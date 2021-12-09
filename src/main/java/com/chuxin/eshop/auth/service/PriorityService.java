@@ -17,4 +17,11 @@ public interface PriorityService {
      * @return 根权限列表
      */
     List<PriorityDTO> listRootPriorities();
+
+    /**
+     * 根据父权限 ID 查询子权限集合
+     * @param parentId 父权限 ID
+     * @return 子权限集合
+     */
+    List<PriorityDTO> listChildPriorities(Long parentId);
 }
