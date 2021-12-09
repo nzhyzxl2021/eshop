@@ -25,6 +25,11 @@ public class PriorityDAOImpl implements PriorityDAO {
 
     @Override
     public List<PriorityDO> listRootPriorities() {
-        return null;
+        return priorityMapper.listRootPriorities();
+    }
+
+    @Override
+    public List<PriorityDO> listChildPriorities(Long parentId) {
+        return priorityMapper.listChildPriorities(parentId);
     }
 }

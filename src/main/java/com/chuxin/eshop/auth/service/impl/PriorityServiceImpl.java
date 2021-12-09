@@ -1,7 +1,9 @@
 package com.chuxin.eshop.auth.service.impl;
 
 import com.chuxin.eshop.auth.dao.PriorityDAO;
+import com.chuxin.eshop.auth.domain.PriorityDO;
 import com.chuxin.eshop.auth.domain.PriorityDTO;
+import com.chuxin.eshop.auth.mapstruct.PrioritySwitcher;
 import com.chuxin.eshop.auth.service.PriorityService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -23,8 +25,17 @@ public class PriorityServiceImpl implements PriorityService {
      */
     private final PriorityDAO priorityDAO;
 
+    private final PrioritySwitcher prioritySwitcher;
+
     @Override
     public List<PriorityDTO> listRootPriorities() {
-        return null;
+        List<PriorityDO> priorityDOS = priorityDAO.listRootPriorities();
+        return prioritySwitcher.doList2DTOList(priorityDOS);
+    }
+
+    @Override
+    public List<PriorityDTO> listChildPriorities(Long parentId) {
+        List<PriorityDO> priorityDOS = priorityDAO.listChildPriorities(parentId);
+        return prioritySwitcher.doList2DTOList(priorityDOS);
     }
 }
